@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The base configurations of the WordPress.
  *
@@ -19,13 +20,13 @@
 define('DB_NAME', 'dandyagency_wp');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'wearedandy');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'eiud2@dasWFD');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql.wearedandy.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -81,13 +82,13 @@ define('WPLANG', 'es_ES');
 define('WP_DEBUG', false);
 
 /* Disable automatic updates */
-define( 'AUTOMATIC_UPDATER_DISABLED', true );
-define( 'WP_AUTO_UPDATE_CORE', false );
+//define( 'AUTOMATIC_UPDATER_DISABLED', true );
+//define( 'WP_AUTO_UPDATE_CORE', false );
 
 /* Starting set config data from host */
 $myHost = strtolower($_SERVER['HTTP_HOST']);
 $mySite = "localhost";
-if(strstr( $myHost,"localhost") > -1 ) define('WP_HOME','http://wearedandy.localhost.com') . define('WP_SITEURL','http://wearedandy.localhost.com');
+if(strstr( $myHost,"localhost") > -1 ) define('WP_HOME','http://localhost/dandy-agency') . define('WP_SITEURL','http://localhost/dandy-agency');
 if(strstr( $myHost,"192.168.1.69") > -1 ) define('WP_HOME','http://192.168.1.69/dandy-agency') . define('WP_SITEURL','http://192.168.1.69/dandy-agency');
 
 /* That's all, stop editing! Happy blogging. */
