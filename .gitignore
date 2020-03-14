@@ -1,0 +1,12 @@
+.DS_Store
+/wp-content/cache
+/wp-content/log
+/wp-content/uploads/
+/wp-config.php
+/.htaccess
+*.log
+
+wp-content/advanced-cache.php
+wp-content/w3tc-config/master.php
+wp-content/object-cache.php
+wp-content/db.php
