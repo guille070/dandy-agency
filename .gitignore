@@ -1,12 +1,7 @@
-wp-config.php
 .htaccess
+wp-config.php
 wp-content/cache
+wp-content/uploads
 wp-content/log
-wp-content/uploads/
 *.log
 .DS_Store
-
-wp-content/advanced-cache.php
-wp-content/w3tc-config/master.php
-wp-content/object-cache.php
-wp-content/db.php
