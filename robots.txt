@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /projects/
-Disallow: /downloads/
-Disallow: /staging/
-Disallow: /_old/
