@@ -1,7 +1,7 @@
 # BEGIN iThemes Security
 	# BEGIN Hide Backend
 			# Rules to hide the dashboard
-			RewriteRule ^(/dandy-agency/)?loginadmin/?$ /dandy-agency/wp-login.php [QSA,L]
+			RewriteRule ^(/)?loginadmin/?$ /wp-login.php [QSA,L]
 		
 	# END Hide Backend
 	# BEGIN Tweaks
@@ -46,11 +46,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /dandy-agency/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /dandy-agency/index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
