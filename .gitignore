@@ -2,6 +2,7 @@
 wp-config.php
 wp-content/cache
 wp-content/uploads
+wp-content/updraft
 wp-content/log
 *.log
 .DS_Store
